@@ -1,0 +1,122 @@
+/*CAMBIO DE FUENTE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+
+/*CONFIGURACION BODY Y HTML*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*MAIN*/
+
+main {
+    display: block;
+    padding: 1%;
+    border: solid 2px black;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*HEADER*/
+
+#header {
+    display: block;
+    width: 100%;
+    height: 16%;
+    text-align: center;
+    align-content: center;
+}
+
+#header>header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 48%;
+    background-color: orange;
+    border: solid 1px black;
+}
+
+#header>nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 48%;
+    margin-top: 0.4%;
+    background-color: red;
+    border: solid 1px black;
+}
+
+
+/*DIV - ASIDE - SECTION*/
+
+#aside {
+    display: flex;
+    margin-top: 0.6%;
+    width: 100%;
+    height: 72%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    background-color: yellow;
+    border: solid 1px black;
+}
+
+section {
+    display: flex;
+    width: 34%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: fuchsia;
+    border: solid 1px black;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25%;
+    background-color: green;
+    border: solid 1px black;
+}
+
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-top: 0.4%;
+    background-color: blue;
+    border: solid 1px black;
+}
